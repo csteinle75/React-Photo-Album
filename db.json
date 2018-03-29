@@ -1,0 +1,44 @@
+{
+	"albums": [
+		{
+			"id":1,
+			"name":"album 1"
+		},
+		{
+			"id":2,
+			"name":"album 2"
+		}
+	],
+	"images": [
+		{
+			"id": 1,
+			"albumId": 1,
+			"url": "http://placehold.it/300/300"
+		},
+		{
+			"id": 2,
+			"albumId": 1,
+			"url": "http://placehold.it/300/300"
+		},
+		{
+			"id": 3,
+			"albumId": 1,
+			"url": "http://placehold.it/300/300"
+		},
+		{
+			"id": 4,
+			"albumId": 2,
+			"url": "http://placehold.it/300/300"
+		},
+		{
+			"id": 5,
+			"albumId": 2,
+			"url": "http://placehold.it/300/300"
+		},
+		{
+			"id": 6,
+			"albumId": 2,
+			"url": "http://placehold.it/300/300"
+		}
+	]
+}

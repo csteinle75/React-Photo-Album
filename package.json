@@ -1,0 +1,23 @@
+{
+  "name": "react-photo-album",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"json-server db.json -p 3001\" \"cd client && npm start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csteinle75/React-Photo-Album.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csteinle75/React-Photo-Album/issues"
+  },
+  "homepage": "https://github.com/csteinle75/React-Photo-Album#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "json-server": "^0.12.1"
+  }
+}
