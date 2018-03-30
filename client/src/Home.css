@@ -1,4 +1,12 @@
+#albumPreviewTitle{
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	background-color: #fdd
+}
+
 #albumPreviews{
 	display: flex;
 	flex-flow: row wrap;
 }
+

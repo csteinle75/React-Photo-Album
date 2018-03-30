@@ -6,6 +6,7 @@ import axios from 'axios'
 //components
 import Home from './Home'
 import Album from './Album'
+import Picture from './Picture'
 
 //styles
 import './App.css';
@@ -16,6 +17,7 @@ class App extends Component {
       <Router>
         <Switch>
           <Route exact path="/" component={Home}/>
+          <Route exact path="/album/:albumid/:imageid" component={Picture}/>
           <Route path="/album/:albumid" component={Album} />
         </Switch>
       </Router>
