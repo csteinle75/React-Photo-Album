@@ -28,7 +28,7 @@ class Home extends Component {
 	render(){
 		return(
 			<div>
-				<h3>My Albums</h3>
+				<h3 id="albumPreviewTitle">My Albums</h3>
 				<div id="albumPreviews">
 					{this.state.albums.map((album, i) => (
 							<Preview path={'album/' + album.id} name={album.name} previewImage={album.images[0].url} key={'album-' + i} />
