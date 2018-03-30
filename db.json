@@ -7,38 +7,96 @@
 		{
 			"id":2,
 			"name":"album 2"
+		},
+		{
+			"id":3,
+			"name":"album 3"
+		},
+		{
+			"id":4,
+			"name":"album 4"
+		},
+		{
+			"id":5,
+			"name":"album 5"
+		},
+		{
+			"id":6,
+			"name":"album 6"
 		}
 	],
 	"images": [
 		{
 			"id": 1,
 			"albumId": 1,
-			"url": "http://placehold.it/300/300"
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
 		},
 		{
 			"id": 2,
 			"albumId": 1,
-			"url": "http://placehold.it/300/300"
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
 		},
 		{
 			"id": 3,
 			"albumId": 1,
-			"url": "http://placehold.it/300/300"
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
 		},
 		{
 			"id": 4,
 			"albumId": 2,
-			"url": "http://placehold.it/300/300"
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
 		},
 		{
 			"id": 5,
 			"albumId": 2,
-			"url": "http://placehold.it/300/300"
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
 		},
 		{
 			"id": 6,
 			"albumId": 2,
-			"url": "http://placehold.it/300/300"
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
+		},
+		{
+			"id": 7,
+			"albumId": 3,
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
+		},
+		{
+			"id": 8,
+			"albumId": 3,
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
+		},
+		{
+			"id": 9,
+			"albumId": 3,
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
+		},
+		{
+			"id": 10,
+			"albumId": 4,
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
+		},
+		{
+			"id": 11,
+			"albumId": 5,
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
+		},
+		{
+			"id": 12,
+			"albumId": 6,
+			"url": "http://placehold.it/300/300",
+			"name": "picture"
 		}
 	]
 }

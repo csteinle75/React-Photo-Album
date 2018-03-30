@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route, Switch, Link, Redirect, withRouter} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch, Redirect, withRouter} from 'react-router-dom'
 import axios from 'axios'
 //setup redux later
 
