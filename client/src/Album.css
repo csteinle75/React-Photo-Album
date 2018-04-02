@@ -1,0 +1,13 @@
+#albumPageContainer{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#albumSidebar{
+	width: 25%;
+}
+
+#imagePreviews{
+	display: flex;
+	flex-flow: row wrap;
+}
