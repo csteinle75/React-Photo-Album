@@ -20,7 +20,7 @@ class Home extends Component {
 	componentDidMount(){
 		getAlbums()
 
-		store.subscribe(() =>{
+		this.unsubscribe = store.subscribe(() =>{
 			const state = store.getState()
 
 			this.setState({
@@ -29,8 +29,8 @@ class Home extends Component {
 		})
 	}
 
-	componentDidUpdate(){
-		
+	componentWillUnmount(){
+		this.unsubscribe()
 	}
 
 	render(){

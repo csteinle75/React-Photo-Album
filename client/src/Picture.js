@@ -9,21 +9,19 @@ class Picture extends Component{
 		currentImage: {}
 	}
 	componentDidMount(){
-		// axios.get('http://localhost:3001/images/' + this.props.match.params.imageid).then(response => {
-		// 	this.setState({
-		// 		currentImage: response.data.url
-		// 	})
-		// })
 		getCurrentImage(this.props.match.params.imageid)
 
-		store.subscribe(() =>{
+		this.unsubscribe = store.subscribe(() =>{
 			const state = store.getState()
 
 			this.setState({
 				currentImage: state.currentImage
 			})
 		})
+	}
 
+	componentWillUnmount(){
+		this.unsubscribe()
 	}
 
 	render(){

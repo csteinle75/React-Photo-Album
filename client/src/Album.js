@@ -31,14 +31,16 @@ class Album extends Component{
 	componentDidMount(){
 		getCurrentAlbum(this.props.match.params.albumid)
 
-		store.subscribe(() =>{
+		this.unsubscribe = store.subscribe(() =>{
 			const state = store.getState()
 
 			this.setState({
 				currentAlbum: state.currentAlbum
 			})
 		})
-
+	}
+	componentWillUnmount(){
+		this.unsubscribe()
 	}
 
 	render(){
