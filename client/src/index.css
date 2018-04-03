@@ -8,3 +8,13 @@ body {
 *,*:before,*:after{
 	box-sizing: inherit;
 }
+
+a {
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #222;
+}
+
+a:hover{
+	color: #955;
+}

@@ -3,6 +3,7 @@ import axios from 'axios'
 
 export function getAlbums(){
 	axios.get('http://localhost:3001/albums?_embed=images').then(response => {
+		console.log('getAlbums action: ' , response.data)
 		store.dispatch({
 			type: "GET_ALBUMS",
 			payload: response.data
@@ -19,10 +20,12 @@ export function getImages(){
 }
 export function getCurrentAlbum(albumid){
 	axios.get('http://localhost:3001/albums/' + albumid + '?_embed=images').then(response => {
+		console.log('getCurrentAlbum action: ' , response.data)
 		store.dispatch({
 			type: "GET_CURRENT_ALBUM",
 			payload: response.data
 		})
+		getAlbums()
 	})
 }
 export function getCurrentImage(imageid){
